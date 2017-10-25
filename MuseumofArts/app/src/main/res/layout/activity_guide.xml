@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Card_View1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardElevation="2dp"
+                card_view:contentPadding="2dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gui1" />
+
+                    <TextView
+                        android:id="@+id/museum_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/image1"
+                        android:background="@color/color3"
+                        android:padding="8dp"
+                        android:text="Senguthuvan Ilango Venmal "
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Card_View2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardElevation="2dp"
+                card_view:contentPadding="2dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gui2" />
+
+                    <TextView
+                        android:id="@+id/locator_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/image2"
+                        android:background="@color/color3"
+                        android:padding="8dp"
+                        android:text="Mamankam"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Card_View3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardElevation="2dp"
+                card_view:contentPadding="2dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gui3"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:id="@+id/plan_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/image3"
+                        android:background="@color/color3"
+                        android:padding="8dp"
+                        android:text="Kunjali Marakkar "
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Card_View4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="top|center"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardElevation="2dp"
+                card_view:contentPadding="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gui4" />
+
+                    <TextView
+                        android:id="@+id/demo_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/image4"
+                        android:background="@color/color3"
+                        android:padding="8dp"
+                        android:text="Oath of Coonan Cross"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/news_title"
+        layout="@layout/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
