@@ -2,20 +2,16 @@ package com.example.justin.museumofarts;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-import static android.R.attr.y;
-import static com.example.justin.museumofarts.R.layout.activity_more;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    
+
 //    private TextView mTextMessage;
 //
 //   private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -47,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_museum_main);
+
+
 
 
         // OnMuseumClick
