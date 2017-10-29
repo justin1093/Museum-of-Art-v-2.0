@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Justin on 10/24/2017.
  */
 
-class Activity6 extends AppCompatActivity {
+public class Activity6 extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more);
     }

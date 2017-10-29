@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-/**
+/****************************************
  * Created by Justin on 10/24/2017.
+ * **************************************
  */
 
-class Activity4 extends AppCompatActivity {
+public class Activity4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
