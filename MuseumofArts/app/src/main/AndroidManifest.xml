@@ -3,6 +3,9 @@
     package="com.example.justin.museumofarts">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 
     <application
@@ -18,7 +21,7 @@
             android:value="AIzaSyAhhVKAMCpLjxRtg-c1NHaPuPpZxXDg0Fg" />
 
 
-        <activity android:name=".SplashScreen">
+        <activity android:name="in.cm.bcon360.app.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,15 +29,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.justin.museumofarts.MainActivity"
+            android:name="in.cm.bcon360.app.MainActivity"
             android:label="@string/app_name" >
         </activity>
-        <activity android:name=".Activity1" />
-        <activity android:name=".Activity2"></activity>
-        <activity android:name=".Activity3"></activity>
-        <activity android:name=".Activity4"></activity>
-        <activity android:name=".Activity5"></activity>
-        <activity android:name=".Activity6"></activity>
+        <activity android:name="in.cm.bcon360.app.MuseumListActivity1" />
+        <activity android:name="in.cm.bcon360.app.MuseumDetailsActivity2"></activity>
+        <activity android:name="in.cm.bcon360.app.GuideContentActivity3"></activity>
+        <activity android:name="in.cm.bcon360.app.GuideContentExplainActivity4"></activity>
+        <activity android:name="in.cm.bcon360.app.GMapActivity5"></activity>
+        <activity android:name="in.cm.bcon360.app.MoreListActivity6"></activity>
     </application>
 
 </manifest>

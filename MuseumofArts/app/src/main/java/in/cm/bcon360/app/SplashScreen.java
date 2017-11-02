@@ -1,4 +1,4 @@
-package com.example.justin.museumofarts;
+package in.cm.bcon360.app;
 
 /**
  * Created by Justin on 24-Sep-17.
@@ -8,6 +8,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.justin.museumofarts.R;
 
 public class SplashScreen extends Activity {
 

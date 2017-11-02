@@ -1,16 +1,18 @@
-package com.example.justin.museumofarts;
+package in.cm.bcon360.app;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.example.justin.museumofarts.R;
+
 /****************************************
  * Created by Justin on 10/24/2017.
  * **************************************
  */
 
-public class Activity4 extends AppCompatActivity {
+public class GuideContentExplainActivity4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,7 @@ public class Activity4 extends AppCompatActivity {
 
 
     public void b(View v) {
-        Intent intent = new Intent(Activity4.this, Activity5.class);
+        Intent intent = new Intent(GuideContentExplainActivity4.this, GMapActivity5.class);
         startActivity(intent);
 
     }

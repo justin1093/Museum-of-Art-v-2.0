@@ -1,9 +1,14 @@
-package com.example.justin.museumofarts;
+package in.cm.bcon360.app;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 
+import com.example.justin.museumofarts.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -16,7 +21,7 @@ import static com.example.justin.museumofarts.R.id.map;
  * Created by Justin on 10/24/2017.
  */
 
-public class Activity5 extends FragmentActivity implements OnMapReadyCallback {
+public class GMapActivity5 extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
@@ -24,6 +29,32 @@ public class Activity5 extends FragmentActivity implements OnMapReadyCallback {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_locator);
+
+        //  Initializing the bottomNavigationView
+        BottomNavigationView bottomNavigationView;
+        bottomNavigationView = (BottomNavigationView)findViewById(R.id.navigation);
+
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                new BottomNavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        switch (item.getItemId()) {
+                            case R.id.navigation_home:
+                                Intent i = new Intent(GMapActivity5.this, MainActivity.class);
+                                startActivity(i);
+                                break;
+                            case R.id.naviation_search:
+                          //
+                                break;
+                            case R.id.navigation_offer:
+
+                                break;
+                        }
+                        return false;
+                    }
+                });
+
 
 
 

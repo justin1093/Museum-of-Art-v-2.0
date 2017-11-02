@@ -1,14 +1,22 @@
-package com.example.justin.museumofarts;
+package in.cm.bcon360.app;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.justin.museumofarts.R;
 
 
 
 public class MainActivity extends AppCompatActivity {
+
 
 
 //    private TextView mTextMessage;
@@ -38,12 +46,37 @@ public class MainActivity extends AppCompatActivity {
 //    };
 
 
+
+/////////////////////////////////////////////////
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_museum_main);
 
+        //  Initializing the bottomNavigationView
+        BottomNavigationView bottomNavigationView;
+        bottomNavigationView = (BottomNavigationView)findViewById(R.id.navigation);
 
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                new BottomNavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        switch (item.getItemId()) {
+                            case R.id.navigation_home:
+
+                                break;
+                            case R.id.naviation_search:
+                                Intent i = new Intent(MainActivity.this, GMapActivity5.class);
+                                startActivity(i);
+                                break;
+                            case R.id.navigation_offer:
+
+                                break;
+                        }
+                        return false;
+                    }
+                });
 
 
         // OnMuseumClick
@@ -53,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 // setContentView(activity_museum);
-                Intent i = new Intent(MainActivity.this, Activity1.class);
+                Intent i = new Intent(MainActivity.this, MuseumListActivity1.class);
                 startActivity(i);
             }
         });
@@ -66,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 // setContentView(activity_museum);
-                Intent i = new Intent(MainActivity.this, Activity5.class);
+                Intent i = new Intent(MainActivity.this, GMapActivity5.class);
                 startActivity(i);
             }
         });
@@ -79,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 //setContentView(activity_more);
-                Intent i = new Intent(MainActivity.this, Activity6.class);
+                Intent i = new Intent(MainActivity.this, MoreListActivity6.class);
                 startActivity(i);
 
             }});
@@ -89,5 +122,8 @@ public class MainActivity extends AppCompatActivity {
 }
 
 }
+
+
+
 
 
