@@ -6,7 +6,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-package  in.cm.bcon360.app.s2s.http.mediator;
+package in.cm.bcon360.app.s2s.http.mediator;
 
 import android.content.Context;
 

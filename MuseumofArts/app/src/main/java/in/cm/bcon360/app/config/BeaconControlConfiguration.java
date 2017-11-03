@@ -6,7 +6,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-package  in.cm.bcon360.app.config;
+package in.cm.bcon360.app.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;

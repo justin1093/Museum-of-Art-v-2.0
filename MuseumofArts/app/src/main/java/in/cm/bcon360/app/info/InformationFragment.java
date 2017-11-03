@@ -6,7 +6,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-package  in.cm.bcon360.app.info;
+package in.cm.bcon360.app.info;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

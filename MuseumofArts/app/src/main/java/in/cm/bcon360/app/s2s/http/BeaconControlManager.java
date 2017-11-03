@@ -33,6 +33,10 @@ public class BeaconControlManager {
     private static final String CLIENT_SECRET = "55f560c85ce5e645c928eb72537a1183b87b947d9d4129a8786c10f6bff3613b";
     private static final String CLIENT_ID = "76b8780413c3902d76ae7a05b9a17dcb04ed0696147696d3b4ff3302269efc32";
 
+//    private static final String SERVICE_BASE_URL = "https://admin.beaconcontrol.io/s2s_api/v1/";
+//    private static final String CLIENT_SECRET = "e3f3cbd30187663795011d47d80c512496a9bbabb934b66adfa773de9297957a";
+//    private static final String CLIENT_ID = "703405a8a9ba4296acc6f6a0823255f855480aaf8609d46f8c318ddd3dd9c1fc";
+
     private static final int CONNECTION_TIMEOUT_IN_SECONDS = 15;
     private static final int READ_TIMEOUT_IN_SECONDS = 20;
     private static final int WRITE_TIMEOUT_IN_SECONDS = 20;
