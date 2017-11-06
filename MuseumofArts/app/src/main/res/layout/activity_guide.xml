@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
                 card_view:cardCornerRadius="1dp"
                 card_view:cardElevation="2dp"
                 card_view:contentPadding="2dp">
@@ -61,6 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
                 card_view:cardCornerRadius="1dp"
                 card_view:cardElevation="2dp"
                 card_view:contentPadding="2dp">
@@ -96,6 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
                 card_view:cardCornerRadius="1dp"
                 card_view:cardElevation="2dp"
                 card_view:contentPadding="2dp">
@@ -131,6 +134,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_gravity="top|center"
+                android:layout_marginBottom="10dp"
                 card_view:cardCornerRadius="1dp"
                 card_view:cardElevation="2dp"
                 card_view:contentPadding="2dp">

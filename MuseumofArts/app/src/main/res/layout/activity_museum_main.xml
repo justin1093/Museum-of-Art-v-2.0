@@ -5,8 +5,8 @@ xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/container"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context="in.cm.bcon360.app.MainActivity">
+    tools:context="in.cm.bcon360.app.MainActivity"
+    android:orientation="vertical">
 
 <FrameLayout
     android:id="@+id/content"
@@ -46,7 +46,7 @@ tools:context="in.cm.bcon360.app.MainActivity">
                         android:layout_marginBottom="10dp"
                         card_view:cardBackgroundColor="#ffff"
                         card_view:cardCornerRadius="1dp"
-                        card_view:cardElevation="0dp"
+                        card_view:cardElevation="2dp"
                         card_view:contentPadding="2dp">
 
                         <RelativeLayout

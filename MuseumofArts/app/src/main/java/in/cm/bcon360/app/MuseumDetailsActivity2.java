@@ -97,10 +97,15 @@ public class MuseumDetailsActivity2 extends AppCompatActivity {
                 Log.d(TAG, "Login BeaconControl");
                 logIn();
 
-                Toast.makeText(MuseumDetailsActivity2.this, "Login proces started", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MuseumDetailsActivity2.this, "Login process started", Toast.LENGTH_SHORT).show();
 
-                // Intent intent = new Intent(MuseumDetailsActivity2.this, GuideContentActivity3.class);
-                // startActivity(intent);
+
+//Navigate to museum items offline mode
+
+                 Intent intent = new Intent(MuseumDetailsActivity2.this, GuideContentActivity3.class);
+                 startActivity(intent);
+
+
             }
         });
 

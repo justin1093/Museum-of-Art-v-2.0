@@ -176,12 +176,6 @@ tools:context="in.cm.bcon360.app.MainActivity">
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
 
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="TextView" />
-
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
 
