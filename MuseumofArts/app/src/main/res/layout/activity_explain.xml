@@ -7,33 +7,26 @@
     android:background="@color/cardview_light_background">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Card_View">
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="600dp"
             android:orientation="vertical"
             android:weightSum="1">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/Card_View"
-                card_view:cardPreventCornerOverlap="false"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_gravity="bottom"
                 card_view:cardCornerRadius="1dp"
                 card_view:cardElevation="2dp"
+                card_view:cardPreventCornerOverlap="false"
                 card_view:contentPadding="2dp">
 
                 <RelativeLayout
 
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/image3"
@@ -53,29 +46,33 @@
                         android:padding="8dp"
                         android:text="Senguthuvan Ilango Venmal"
                         android:textColor="@android:color/white"
-                        android:textSize="20sp" />
+                        android:textSize="16dp" />
 
 
                 </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="The Cheras held sway over the central part of Keralam in the early centuries after Christ and they ruled from Thiruvanchikkulam1.The most renowned of them was Kadalpirakottiya Vel Kehl Kuttuvan, the Senguttuvan or the Red Chera. After consolidating his conquests that valiant warrior portrayed here in his chambers with Queen Ilango Venmal gave considerable attention to the promotion of agriculture and foreign trade. He also had the reputation of being a noted patron of arts. The king sought the advice of his ministers and also heard complaints of people in person."
-                android:textSize="18sp" />
-
 
         </LinearLayout>
-    </ScrollView>
 
     <include
         android:id="@+id/news_title"
         layout="@layout/bottom_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="205dp"
+        android:text="The Cheras held sway over the central part of Keralam in the early centuries after Christ and they ruled from Thiruvanchikkulam1.The most renowned of them was Kadalpirakottiya Vel Kehl Kuttuvan, the Senguttuvan or the Red Chera. After consolidating his conquests that valiant warrior portrayed here in his chambers with Queen Ilango Venmal gave considerable attention to the promotion of agriculture and foreign trade. He also had the reputation of being a noted patron of arts. "
+        android:textAlignment="textStart"
+        android:textSize="16dp" />
 
 </RelativeLayout>
