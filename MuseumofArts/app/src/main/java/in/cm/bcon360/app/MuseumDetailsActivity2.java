@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -54,12 +56,92 @@ public class MuseumDetailsActivity2 extends AppCompatActivity {
     private BeaconActionsLogsStore logsStore;
     //private BeaconsFragment beaconsFragment;
     private BeaconControl beaconControl;
+    //Expansion
+    TextView descText1, descText2, descText3, descText4, descText5, descText6, descText7, down1, down2, down3, down4, down5, down6, down7;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.example.justin.museumofarts.R.layout.activity_museum_details);
+
+        descText1 = (TextView) findViewById(R.id.textView6);
+        descText2 = (TextView) findViewById(R.id.textView9);
+        descText3 = (TextView) findViewById(R.id.textView13);
+        descText4 = (TextView) findViewById(R.id.textView23);
+        descText5 = (TextView) findViewById(R.id.textView25);
+        descText6 = (TextView) findViewById(R.id.textView27);
+        descText7 = (TextView) findViewById(R.id.textView29);
+        down1 = (TextView) findViewById(R.id.eda);
+        down2 = (TextView) findViewById(R.id.textView8);
+        down3 = (TextView) findViewById(R.id.textView12);
+        down4 = (TextView) findViewById(R.id.textView22);
+        down5 = (TextView) findViewById(R.id.textView24);
+        down6 = (TextView) findViewById(R.id.textView26);
+        down7 = (TextView) findViewById(R.id.textView28);
+
+
+
+        down1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText1.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+        down2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText2.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+        down3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText3.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+        down4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText4.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+        down5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText5.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+        down6.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText6.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+        down7.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                descText7.setMaxLines(Integer.MAX_VALUE);
+            }
+        });
+
+
+
+
 
 
         //  Initializing the bottomNavigationView
