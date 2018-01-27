@@ -20,52 +20,35 @@
             android:orientation="vertical"
             android:weightSum="1">
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/Card_View"
+            <ImageView
+                android:id="@+id/image3"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_gravity="bottom"
-                card_view:cardCornerRadius="1dp"
-                card_view:cardElevation="2dp"
-                card_view:contentPadding="2dp">
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image3" />
 
-                <RelativeLayout
-
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/image3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/image3" />
-
-                    <TextView
-                        android:id="@+id/eda"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/image3"
-                        android:background="@color/color3"
-                        android:padding="8dp"
-                        android:text="Museum of Kerala History at Edappally"
-                        android:textColor="@android:color/white"
-                        android:textSize="20sp" />
-
-
-                </RelativeLayout>
-
-            </android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/eda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/image3"
+                android:background="@color/color3"
+                android:padding="8dp"
+                android:text="Museum of Kerala History at Edappally"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="A museum for understanding the history of Kerala and that too born out of an individual's efforts is among the few in India. The Art and History Museum complex has been the realization of Mr. R. Madhavan Nayar (1914-1996), a prominent industrialist and philanthropist. His passion for arts eventually led him to the establishment of the various units established under the Art and History Museums, which is currently managed by the Madhavan Nayar Foundation. "
-                android:textSize="18sp" />
+                android:textAlignment="viewStart"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -76,15 +59,16 @@
                 android:padding="8dp"
                 android:text="Museum of Kerala History"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="Housed in a circular domed building, the Museum of Kerala History is a sound and light spectacle. It works on a time frame, portraying the history of Kerala from early inhabitants to the modern era. Here one would come 38 life-size tableaux, each backed by multiple visuals, reflecting the cultural and social history of Kerala. This presentation is considered as the first of its kind in India."
-                android:textSize="18sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -95,15 +79,16 @@
                 android:padding="8dp"
                 android:text="Museum of paintings and sculptures"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="With over 200 original paintings and 30 odd sculptures by well known Indian artists, this museum unit is spread over three floors. Some of the noted Indian artists whose works are on display here include that of Ravi Varma, M. F. Hussain, F. N. Souza, Jamini Roy, Kishen Khanna and Nandalal Bose. This museum has among its displayed items a mural painting based on the Classical Sanskrit drama Shakuntalam, done in the traditional Kerala mural style. It is 25 ft. long by 5 ft. wide and is one of the largest in Kerala, noted for its fine attention to details."
-                android:textSize="18sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -114,15 +99,16 @@
                 android:padding="8dp"
                 android:text="Museum of Indian Miniatures"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="Featuring reproductions of Indian miniature art, the Museum of Indian Miniatures is yet another attraction at the Art and History Museum complex. Devoted exclusively to miniatures, the works are of Indian artists trained by Persian masters in the latter half of the 16th century during the reign of Emperor Akbar."
-                android:textSize="18sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView24"
@@ -133,15 +119,16 @@
                 android:padding="8dp"
                 android:text="Dolls' Museum"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="And in the Dolls' Museum, visitors would be greeted by a wide range of Indian dolls. This museum has a collection of about a hundred and fifty hand-crafted dolls. The dolls represent young men and women, from Gujarat to Nagaland and from Kashmir to Kanyakumari. There are brides and bridegrooms from various Indian states; dance figures representing the rich repertoire of Indian classical dances as well as folk dances in groups."
-                android:textSize="18sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView26"
@@ -152,15 +139,16 @@
                 android:padding="8dp"
                 android:text="Centre for Visual Arts"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="Another interesting part of the museum complex is the Centre for Visual Arts that houses about 500 reproductions of world's renowned painters like Leonardo da Vinci, Monet, Cezanne, Van Gogh etc. Among the other attractions here are the huge reliefs of ancient India's sculptural masterpieces like Yakshi of Didarganj, Dwarapalaka (Ajanta) and the Woman and Parrot."
-                android:textSize="18sp" />
+                android:textSize="16dp" />
 
 
             <TextView
@@ -172,24 +160,25 @@
                 android:padding="8dp"
                 android:text="Projection Studio"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:maxLines="2"
                 android:text="Part of the Art and Museum complex is the Projection Studio. Here screening of visuals and specialized art related subjects to interested visitors and students of art are held. It has a CD collection worth 72 hours of projection time.
 
 Visitors to this museum complex are greeted by the rich greenery in the museum premises. Located on the NH-47 connecting Ernakulam and Alwaye, the Art and Museum complex at Edappally in Kochi attracts visitors from diverse fields, including foreign and domestic tourists, school and college students, dignitaries, art lovers and casual visitors."
-                android:textSize="18sp" />
+                android:textSize="16dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                 <android.support.design.widget.FloatingActionButton
+                <android.support.design.widget.FloatingActionButton
                     android:id="@+id/NavigationButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

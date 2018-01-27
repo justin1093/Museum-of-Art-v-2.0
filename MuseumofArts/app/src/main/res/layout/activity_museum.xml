@@ -66,20 +66,9 @@ tools:context="in.cm.bcon360.app.MainActivity">
                             android:background="@color/color3"
                             android:padding="8dp"
                             android:text="Museum of Kerala Arts  History, Edapally"
-                            android:textColor="@android:color/white" />
-
-                        <TextView
-                            android:id="@+id/textView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignBottom="@+id/dutch"
-                            android:layout_alignParentEnd="true"
-                            android:paddingBottom="8dp"
-                            android:paddingLeft="200dp"
-                            android:paddingTop="8dp"
-                            android:text="9:00 AM - 5:00 PM"
                             android:textColor="@android:color/white"
-                            android:textSize="10sp" />
+                            android:textSize="16dp"/>
+
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
 
@@ -113,19 +102,9 @@ tools:context="in.cm.bcon360.app.MainActivity">
                             android:background="@color/color3"
                             android:padding="8dp"
                             android:text="Indo-Portuguese Museum, Fort Kochi, "
-                            android:textColor="@android:color/white" />
-
-                        <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignBottom="@+id/hill"
-                            android:paddingBottom="8dp"
-                            android:paddingLeft="300dp"
-                            android:paddingTop="8dp"
-                            android:text="9:00AM-12:00PM"
                             android:textColor="@android:color/white"
-                            android:textSize="10sp" />
+                            android:textSize="16dp"/>
+
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
 
@@ -160,27 +139,12 @@ tools:context="in.cm.bcon360.app.MainActivity">
                             android:background="@color/color3"
                             android:padding="8dp"
                             android:text="Hill Palace, Tripunithura"
-                            android:textColor="@android:color/white" />
-
-                        <TextView
-                            android:id="@+id/textView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignBottom="@+id/image3"
-                            android:paddingBottom="8dp"
-                            android:paddingLeft="290dp"
-                            android:paddingTop="8dp"
-                            android:text="9:00 AM - 12:30 PM - 2:00 PM - 4:30 PM"
                             android:textColor="@android:color/white"
-                            android:textSize="10sp" />
+                            android:textSize="16dp"/>
+
+
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
-
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="TextView" />
 
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>

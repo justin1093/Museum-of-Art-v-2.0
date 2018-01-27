@@ -5,8 +5,8 @@ xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/container"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context="in.cm.bcon360.app.MainActivity">
+    tools:context="in.cm.bcon360.app.MainActivity"
+    android:orientation="vertical">
 
 <FrameLayout
     android:id="@+id/content"
@@ -46,7 +46,7 @@ tools:context="in.cm.bcon360.app.MainActivity">
                         android:layout_marginBottom="10dp"
                         card_view:cardBackgroundColor="#ffff"
                         card_view:cardCornerRadius="1dp"
-                        card_view:cardElevation="0dp"
+                        card_view:cardElevation="2dp"
                         card_view:contentPadding="2dp">
 
                         <RelativeLayout
@@ -72,7 +72,8 @@ tools:context="in.cm.bcon360.app.MainActivity">
                                 android:elevation="18dp"
                                 android:padding="8dp"
                                 android:text="Museums"
-                                android:textColor="@android:color/white" />
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp" />
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
 
@@ -109,7 +110,8 @@ tools:context="in.cm.bcon360.app.MainActivity">
                                 android:background="@color/color3"
                                 android:padding="8dp"
                                 android:text="Locator"
-                                android:textColor="@android:color/white" />
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp"/>
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
 
@@ -146,7 +148,8 @@ tools:context="in.cm.bcon360.app.MainActivity">
                                 android:background="@color/color3"
                                 android:padding="8dp"
                                 android:text="Plan a tour"
-                                android:textColor="@android:color/white" />
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp"/>
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
 
@@ -183,7 +186,8 @@ tools:context="in.cm.bcon360.app.MainActivity">
                                 android:elevation="0dp"
                                 android:padding="8dp"
                                 android:text="Demo"
-                                android:textColor="@android:color/white" />
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp"/>
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
 
@@ -219,7 +223,8 @@ tools:context="in.cm.bcon360.app.MainActivity">
                                 android:background="@color/color3"
                                 android:padding="8dp"
                                 android:text="More"
-                                android:textColor="@android:color/white" />
+                                android:textColor="@android:color/white"
+                                android:textSize="14dp"/>
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
 
