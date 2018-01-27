@@ -43,7 +43,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/gui1" />
+                        android:src="@drawable/banner1" />
 
                     <TextView
                         android:id="@+id/museum_text"
@@ -52,7 +52,7 @@
                         android:layout_alignBottom="@+id/image1"
                         android:background="@color/color3"
                         android:padding="8dp"
-                        android:text="Senguthuvan Ilango Venmal "
+                        android:text="Museum of Kerala History"
                         android:textColor="@android:color/white"
                         android:textSize="14dp" />
                 </RelativeLayout>
@@ -80,7 +80,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/gui2" />
+                        android:src="@drawable/banner2" />
 
                     <TextView
                         android:id="@+id/locator_text"
@@ -89,7 +89,7 @@
                         android:layout_alignBottom="@+id/image2"
                         android:background="@color/color3"
                         android:padding="8dp"
-                        android:text="Mamankam"
+                        android:text="Art Gallery"
                         android:textColor="@android:color/white"
                         android:textSize="14dp" />
                 </RelativeLayout>
@@ -115,7 +115,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/gui3"
+                        android:src="@drawable/banner3"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentStart="true" />
 
@@ -126,7 +126,7 @@
                         android:layout_alignBottom="@+id/image3"
                         android:background="@color/color3"
                         android:padding="8dp"
-                        android:text="Kunjali Marakkar "
+                        android:text="Dolls Collection"
                         android:textColor="@android:color/white"
                         android:textSize="14dp" />
                 </RelativeLayout>
@@ -153,7 +153,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/gui4" />
+                        android:src="@drawable/banner4" />
 
                     <TextView
                         android:id="@+id/demo_text"
@@ -162,7 +162,7 @@
                         android:layout_alignBottom="@+id/image4"
                         android:background="@color/color3"
                         android:padding="8dp"
-                        android:text="Oath of Coonan Cross"
+                        android:text="Miniature Art Gallery"
                         android:textColor="@android:color/white"
                         android:textSize="14dp" />
                 </RelativeLayout>
