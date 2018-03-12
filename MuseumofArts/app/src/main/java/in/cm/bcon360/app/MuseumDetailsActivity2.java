@@ -176,10 +176,12 @@ public class MuseumDetailsActivity2 extends AppCompatActivity {
             public void onClick(View v) {
 //                setContentView(activity_guide);
 
-                Log.d(TAG, "Login BeaconControl");
-                logIn();
+                    Log.d(TAG, "Hello Login BeaconControl");
 
-                Toast.makeText(MuseumDetailsActivity2.this, "Login process started", Toast.LENGTH_SHORT).show();
+//12.08.2018                logIn();
+                startBeaconControl();
+
+                Toast.makeText(MuseumDetailsActivity2.this, "Scanning. . .", Toast.LENGTH_SHORT).show();
 
 
 //Navigate to museum items offline mode
@@ -493,12 +495,30 @@ public class MuseumDetailsActivity2 extends AppCompatActivity {
     private void startBeaconControl() {
         Log.d(TAG, "startBeaconControl");
         //  beaconControlConfiguration = new BeaconControlConfiguration(this);
-        beaconControl = BeaconControl.getInstance(
+/*12.08.2018
+            beaconControl = BeaconControl.getInstance(
                 this,
                 beaconControlConfiguration.getClientId(),
                 beaconControlConfiguration.getClientSecret(),
                 beaconControlConfiguration.getUserId()
         );
+*/
+
+
+
+// added in 12.08.2018
+
+        beaconControl = BeaconControl.getInstance(
+
+                this,
+                "test",
+                "test",
+                "teste"
+        );
+
+
+
+
 
         //.configurations;
        // Log.d(TAG, "beaconservicehelper configurations "+ beaconControl.beaconServiceHelper.configurations);
